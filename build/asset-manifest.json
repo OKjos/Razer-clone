@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b07daced.css",
+    "main.js": "/static/js/main.f3e76153.js",
+    "static/media/razer-blade-18.jpeg": "/static/media/razer-blade-18.5d03b191e3d1f9952aef.jpeg",
+    "static/media/stream-controller.jpeg": "/static/media/stream-controller.97ae4b4d8a12602c64fd.jpeg",
+    "static/media/razer-blade-16.jpeg": "/static/media/razer-blade-16.416ccbe0338a73ca2abe.jpeg",
+    "static/media/ornata-v3.jpeg": "/static/media/ornata-v3.7ab7c80e5b3d56c35bfe.jpeg",
+    "static/media/razer-basilisk.jpeg": "/static/media/razer-basilisk.938f2e861402e7629f00.jpeg",
+    "static/media/razer-edge.jpeg": "/static/media/razer-edge.4da59a9e407bc2473ef8.jpeg",
+    "static/media/new-age-campaign.jpeg": "/static/media/new-age-campaign.988cb1f2d82bb06e3cd2.jpeg",
+    "static/media/razer-blade-15.jpeg": "/static/media/razer-blade-15.9f7d3263230c010ed8f8.jpeg",
+    "static/media/razer-enki.jpeg": "/static/media/razer-enki.f779622c95ca3d565069.jpeg",
+    "static/media/razer-logo.png": "/static/media/razer-logo.74ea7ad716ba6a036e4d.png",
+    "static/media/insta.svg": "/static/media/insta.58e5e8f28aed9f841cb77ad5394fc072.svg",
+    "static/media/twitter.svg": "/static/media/twitter.b7d224504bdfbc5e6c7b1c9de6b26be7.svg",
+    "static/media/facebook.svg": "/static/media/facebook.bb510eca8dcb4a5dfe7caa238f8ee9c1.svg",
+    "index.html": "/index.html",
+    "main.b07daced.css.map": "/static/css/main.b07daced.css.map",
+    "main.f3e76153.js.map": "/static/js/main.f3e76153.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b07daced.css",
+    "static/js/main.f3e76153.js"
+  ]
+}
