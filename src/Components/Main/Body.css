@@ -1,0 +1,56 @@
+.grid-body-container {
+  background-color: gray;
+}
+
+.grid-item {
+  flex: none;
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative; 
+}
+
+.grid-item .IMG {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.text-container h2,
+.text-container h3 {
+  margin: 0;
+}
+
+.learn-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.learn-button:hover {
+  text-decoration: underline;
+}
+
+.buy-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  text-decoration: underline;
+}
