@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import EdgePage from '../Pages/Edge/Edge';
 import './Bottom6.css';
 import newAgeCampaign from '../../icons/new-age-campaign.jpeg';
 import razerEnki from '../../icons/razer-enki.jpeg';
@@ -6,9 +9,16 @@ import razerBasilisk from '../../icons/razer-basilisk.jpeg';
 import razerEdge from '../../icons/razer-edge.jpeg';
 import razerOrnata from '../../icons/ornata-v3.jpeg';
 
-//img
 
-function bottom6() {
+
+
+
+
+function Bottom6({ handleEdge }) {
+
+
+
+
   return (
     <ul className="grid-container">
     <li className="single">
@@ -112,11 +122,11 @@ function bottom6() {
             </h3>
             <div className="cta-links">
               <div className="button-hover">
-                <button className="edge-learn">
-                Learn More <span className="greater-then-symbol">&gt;</span>
+                <button className="edge-learn" onClick={handleEdge}>
+                  Learn More <span className="greater-then-symbol">&gt;</span>
                 </button>
                 <button className="edge-buy">
-                Buy <span className="greater-then-symbol">&gt;</span>
+                    Buy <span className="greater-then-symbol">&gt;</span>
                 </button>
               </div>
             </div>
@@ -149,4 +159,4 @@ function bottom6() {
 );
 }
 
-export default bottom6;
+export default Bottom6;

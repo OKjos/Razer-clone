@@ -1,11 +1,20 @@
-import './Header.css';
+import React, { useState } from 'react';
 import razerLogo from '../../icons/razer-logo.png';
 import searchIcon from '../../icons/search.png';
 import cartIcon from '../../icons/cart_icon.png';
+import Support from '../Other/Support/Support';
+import './Header.css';
 
-function header() {
+function Header() {
+  const handleSupportClick = () => {
+    // Perform any support-related functionality if needed
+  
+    // Navigate to the shop page
+    window.location.href = '/shop';
+  };
+  
   return (
-      <section className='background'>
+    <section className='background'>
       <div className="App">
         <header className="App-header">
           <div>
@@ -20,7 +29,7 @@ function header() {
           <button className='header-button'>Lifestyle</button>
           <button className='header-button'>Services</button>
           <button className='header-button'>Community</button>
-          <button className='header-button'>Support</button>
+          <button className='header-button' type="button" onClick={handleSupportClick}>Support</button>
           <div>
             <button className='search-button'>
               <img className="search-icon" src={searchIcon} alt="Search icon" />
@@ -31,15 +40,16 @@ function header() {
           </div>
         </header>
         <div className="main">
-          <h1 className="siteNotification">Unleash a new age of technology with an arsenal of cutting-edge innovations that will keep you ahead of the game.  
-          <button className="siteNotification-button">
-          Shop Now <span className="greater-then">&gt;</span>
-          </button>
-           </h1>
+          <h1 className="siteNotification">
+            Unleash a new age of technology with an arsenal of cutting-edge innovations that will keep you ahead of the game.
+            <button className="siteNotification-button">
+              Shop Now <span className="greater-then">&gt;</span>
+            </button>
+          </h1>
         </div>
       </div>
-      </section>
+    </section>
   );
 }
 
-export default header;
+export default Header;
